@@ -45,7 +45,10 @@ function Main() {
   return (
     <ThemeProvider theme={themeMode}>
       <MsalProvider instance={msalInstance}>
-        <Helmet defaultTitle='Mocktail' titleTemplate='%s - Mocktail'></Helmet>
+        <Helmet
+          defaultTitle='Mocktail Msal'
+          titleTemplate='%s - Mocktail Msal'
+        ></Helmet>
         <Header />
         <Switch>
           {/* Chore: cleanup, for demo purpose only */}

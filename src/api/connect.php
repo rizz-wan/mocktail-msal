@@ -3,4 +3,4 @@
 $db_host = "localhost";
 $db_user = "root";
 $db_password = "";
-$db_name = "mocktail";
+$db_name = "mocktail-msal";

@@ -103,7 +103,7 @@ export function* requestHelper<IResponse = Record<string, unknown>>(
 
   const path = isWebApi
     ? `https://randomuser.me/${relativePath}`
-    : `https://apiurl/mocktail/src/api/${relativePath}`; // Tip: Update to append your api's base Url
+    : `https://apiurl/mocktail-msal/src/api/${relativePath}`; // Tip: Update to append your api's base Url
 
   const requestMethod: RequestMethod = requestOptions.method ?? 'GET';
   const fetchOptions: RequestInit = {
