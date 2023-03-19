@@ -49,6 +49,8 @@
     }
   },
   "dependencies": {
+    "@azure/msal-browser": "^2.34.0",
+    "@azure/msal-react": "^1.5.4",
     "@fluentui/react": "^8.103.9",
     "@reduxjs/toolkit": "^1.9.1",
     "connected-react-router": "^6.9.3",

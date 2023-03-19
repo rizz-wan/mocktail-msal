@@ -18,6 +18,7 @@ import { updateTheme } from 'src/store/theme';
 import { IHeaderMapState, IHeaderProps } from './header';
 import { headerFooterStyles } from 'src/app/styles';
 import logo from 'src/app/assets/img/logo.png';
+import LoginLogoutButton from './loginLogoutButton';
 
 const toggleStyles: string = mergeStyles({
   marginRight: 0,
@@ -87,6 +88,7 @@ export class Header extends React.Component<IHeaderProps> {
                   checked={this.isDarkMode(theme)}
                   onClick={() => this.props.updateTheme()}
                 />
+                <LoginLogoutButton />
               </div>
             </div>
           </div>

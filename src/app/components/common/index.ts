@@ -6,3 +6,6 @@ export * from './errorBanner';
 export * from './profileCard';
 export * from './colorTable';
 export * from './externalLink';
+export * from './authenticatedRoute';
+export * from './msal/error';
+export * from './msal/loading';
